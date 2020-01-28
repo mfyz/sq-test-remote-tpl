@@ -3,8 +3,6 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="initial-scale=1">
-	
-	<!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
 	{squarespace-headers}
 </head>
 <body>
@@ -17,13 +15,14 @@
 			</h1>
 			<hr />
 			<squarespace:navigation navigationId="mainNav" template="navigation" />
+			<hr />
 		</header>
 
 		<main class="content" data-content-field="main-content">
 			{squarespace.main-content}
 		</main>
 	</div>
-	<!--Injection point for tracking scripts and user content from the code injection tab.-->
+
 	{squarespace-footers}
 </body>
 </html>
